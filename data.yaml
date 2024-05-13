@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['10 cad', '100 cad', '20 cad', '5 cad', '50 cad']
+
+roboflow:
+  workspace: face-detection-cvi
+  project: money-count-cvi
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/face-detection-cvi/money-count-cvi/dataset/1
